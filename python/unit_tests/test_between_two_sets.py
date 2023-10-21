@@ -1,6 +1,6 @@
 import unittest
 
-from between_two_sets import getTotalX
+from python.between_two_sets import getTotalX
 
 
 class BetweenTwoSetsTestCase(unittest.TestCase):

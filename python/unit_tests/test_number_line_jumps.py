@@ -1,6 +1,6 @@
 import unittest
 
-from number_line_jumps import kangaroo
+from python.number_line_jumps import kangaroo
 
 
 class NumberLineJumpsTestCase(unittest.TestCase):

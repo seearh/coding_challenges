@@ -1,6 +1,6 @@
 import unittest
 
-from triplets import compareTriplets
+from python.triplets import compareTriplets
 
 
 class TripletsTestCase(unittest.TestCase):

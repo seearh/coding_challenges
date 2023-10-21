@@ -1,6 +1,6 @@
 import unittest
 
-from birthday_bar import birthday
+from python.birthday_bar import birthday
 
 
 class BirthdayBarTestCase(unittest.TestCase):

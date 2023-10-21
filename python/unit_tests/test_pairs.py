@@ -1,6 +1,6 @@
 import unittest
 
-from pairs import pairs
+from python.pairs import pairs
 
 
 class PairsTestCase(unittest.TestCase):

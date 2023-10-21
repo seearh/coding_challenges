@@ -2,7 +2,7 @@ import unittest
 from io import StringIO
 from unittest.mock import patch
 
-from plus_minus import plusMinus
+from python.plus_minus import plusMinus
 
 
 class PlusMinusTestCase(unittest.TestCase):

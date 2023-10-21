@@ -1,6 +1,6 @@
 import unittest
 
-from grading_students import gradingStudents
+from python.grading_students import gradingStudents
 
 
 class GradingStudentsTestCase(unittest.TestCase):

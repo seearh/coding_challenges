@@ -2,7 +2,7 @@ import unittest
 from io import StringIO
 from unittest.mock import patch
 
-from staircase import staircase
+from python.staircase import staircase
 
 
 class PlusMinusTestCase(unittest.TestCase):

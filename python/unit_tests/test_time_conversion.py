@@ -1,6 +1,6 @@
 import unittest
 
-from time_conversion import timeConversion
+from python.time_conversion import timeConversion
 
 
 class TimeConversionTestCase(unittest.TestCase):

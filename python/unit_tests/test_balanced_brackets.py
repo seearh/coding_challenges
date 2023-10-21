@@ -1,6 +1,6 @@
 import unittest
 
-from balanced_brackets import isBalanced
+from python.balanced_brackets import isBalanced
 
 
 class BalancedBracketsTestCase(unittest.TestCase):

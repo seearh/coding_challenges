@@ -2,7 +2,7 @@ import unittest
 from io import StringIO
 from unittest.mock import patch
 
-from apples_and_oranges import countApplesAndOranges
+from python.apples_and_oranges import countApplesAndOranges
 
 
 class ApplesAndOrangesTestCase(unittest.TestCase):

@@ -1,7 +1,7 @@
 from unittest.mock import call, patch
 import unittest
 
-from text_editor import TextEditor
+from python.text_editor import TextEditor
 
 
 class TextEditorTestCase(unittest.TestCase):
