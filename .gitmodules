@@ -1,0 +1,3 @@
+[submodule "kdb/unit_tests/k4unit"]
+	path = kdb/unit_tests/k4unit
+	url = https://github.com/seearh/k4unit.git
