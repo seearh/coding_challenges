@@ -1,6 +1,6 @@
 import unittest
 
-from python.triplets import compareTriplets
+from hackerrank.triplets import compareTriplets
 
 
 class TripletsTestCase(unittest.TestCase):

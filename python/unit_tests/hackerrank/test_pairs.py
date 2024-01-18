@@ -1,6 +1,6 @@
 import unittest
 
-from python.pairs import pairs
+from hackerrank.pairs import pairs
 
 
 class PairsTestCase(unittest.TestCase):

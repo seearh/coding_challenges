@@ -1,6 +1,6 @@
 import unittest
 
-from python.birthday_candles import birthdayCakeCandles
+from hackerrank.birthday_candles import birthdayCakeCandles
 
 
 class BirthdayCakeCandlesTestCase(unittest.TestCase):

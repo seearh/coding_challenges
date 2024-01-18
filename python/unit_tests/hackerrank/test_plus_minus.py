@@ -2,7 +2,7 @@ import unittest
 from io import StringIO
 from unittest.mock import patch
 
-from python.plus_minus import plusMinus
+from hackerrank.plus_minus import plusMinus
 
 
 class PlusMinusTestCase(unittest.TestCase):

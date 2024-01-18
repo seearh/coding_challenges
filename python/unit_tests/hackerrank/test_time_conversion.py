@@ -1,6 +1,6 @@
 import unittest
 
-from python.time_conversion import timeConversion
+from hackerrank.time_conversion import timeConversion
 
 
 class TimeConversionTestCase(unittest.TestCase):

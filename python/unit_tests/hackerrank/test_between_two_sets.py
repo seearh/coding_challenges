@@ -1,6 +1,6 @@
 import unittest
 
-from python.between_two_sets import getTotalX
+from hackerrank.between_two_sets import getTotalX
 
 
 class BetweenTwoSetsTestCase(unittest.TestCase):

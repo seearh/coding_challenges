@@ -1,6 +1,6 @@
 import unittest
 
-from python.balanced_brackets import isBalanced
+from hackerrank.balanced_brackets import isBalanced
 
 
 class BalancedBracketsTestCase(unittest.TestCase):

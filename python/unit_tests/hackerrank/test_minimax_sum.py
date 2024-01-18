@@ -3,7 +3,7 @@ import unittest
 from io import StringIO
 from unittest.mock import patch
 
-from python.minimax_sum import miniMaxSum
+from hackerrank.minimax_sum import miniMaxSum
 
 
 class MiniMaxSumTestCase(unittest.TestCase):

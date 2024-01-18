@@ -1,6 +1,6 @@
 import unittest
 
-from python.diagonal_diff import diagonalDifference
+from hackerrank.diagonal_diff import diagonalDifference
 
 
 class DiagonalDifferenceTestCase(unittest.TestCase):
