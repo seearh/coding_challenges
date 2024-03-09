@@ -5,6 +5,7 @@ solutions to code challenges that are sourced from various platforms
 by anyone for educational purposes.
 
 ### Directory Structure ###
+hooks (Git hooks)
 kdb (Coding challenge solutions in kdb)
   aoc_2023 (Advent of Code 2023)
   unit_tests (All k4unit test cases & files)
@@ -26,3 +27,6 @@ Python
   structure and test files have been written to work with VSCode Python
   Extension. See https://code.visualstudio.com/docs/python/testing.
 
+Unit tests can be integrated into Git workflow, specifically in the
+pre-push stage. To use this, copy the files in coding_challenges/hooks/
+into coding_challenges/.git/hooks/.
