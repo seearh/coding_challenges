@@ -1,0 +1,18 @@
+action,ms,bytes,lang,code,repeat,minver,comment
+comment,,,k,,1,,Day 1 Trebuchet
+before,,,q,\l ../../aoc_2023/day1/trebuchet.q,1,,Load solution script
+before,,,q,.tmp.test1:read0`:../../aoc_2023/day1/test1.txt,,Load example input
+before,,,q,.tmp.test2:read0`:../../aoc_2023/day1/test2.txt,,Load example input
+true,,,q,12=.tmp.numFromFirstLastDigits"12",,
+true,,,q,15=.tmp.numFromFirstLastDigits"12345",,
+true,,,q,77=.tmp.numFromFirstLastDigits 1#"7",,
+true,,,q,142=.tmp.p1 .tmp.test1,,
+true,,,q,5=.tmp.checkForDigits 1#"5",,
+true,,,q,0=.tmp.checkForDigits"test0",,
+true,,,q,1=.tmp.checkForDigits"testone",,
+true,,,q,1=.tmp.parseForDigitsLeftToRight"abcone2threexyz",,
+true,,,q,3=.tmp.parseForDigitsRightToLeft"abcone2threexyz",,
+true,,,q,4=.tmp.parseForDigitsLeftToRight"4nineeightseven2",,
+true,,,q,2=.tmp.parseForDigitsRightToLeft"4nineeightseven2",,
+true,,,q,281=.tmp.p2 .tmp.test2,,
+after,,,q,delete from `.tmp;,1,,Clean-up namespace
