@@ -1,8 +1,7 @@
 action,ms,bytes,lang,code,repeat,minver,comment
 comment,,,q,,1,,Day 3 Mull It Over
 before,,,q,\l ../../aoc_2024/day3/mullItOver.q,1,,Load solution script
-before,,,q,.tmp.test1:raze read0`:../../aoc_2024/day3/test1.txt,,Load in test data
-before,,,q,.tmp.test2:raze read0`:../../aoc_2024/day3/test2.txt,,Load in test data
-true,,,q,2024=.mul.evalMul "mul(44,46)",,
-true,,,q,161=.mul.p1 .tmp.test1,,
-true,,,q,48=.mul.p2 .tmp.test2,,
+before,,,q,.tmp.test:read0`:../../aoc_2024/day3/test1.txt,,Load in test data
+true,,,q,2024=.mul.evalMul .tmp.test 0,,
+true,,,q,161=.mul.p1 .tmp.test 1,,
+true,,,q,48=.mul.p2 .tmp.test 2,,
