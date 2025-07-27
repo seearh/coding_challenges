@@ -1,0 +1,11 @@
+action,ms,bytes,lang,code,repeat,minver,comment
+comment,,,q,,1,,Day 4 Ceres Search
+before,,,q,\l ../../aoc_2024/day4/ceresSearch.q,1,,Load solution script
+before,,,q,.tmp.test:read0`:../../aoc_2024/day4/test.txt,,Load in test data
+true,,,q,.cs.findLetter[("MMMS";"MSAM";"AMXS";"MSAM");"A"]~(1 2;2 0;3 2),,
+true,,,q,all ((10 10;10 11;10 12;10 13);(10 10;10 9;10 8;10 7);(10 10;11 10;12 10;13 10);(10 10;9 10;8 10;7 10);(10 10;11 11;12 12;13 13);(10 10;9 9;8 8;7 7);(10 10;9 11;8 12;7 13);(10 10;11 9;12 8;13 7)) in .cs.getIndices 10 10,,
+true,,,q,8=count .cs.getIndices 10 10,,
+true,,,q,18=.cs.p1 .tmp.test,,
+true,,,q,((9 11;10 10;11 9);(9 9;10 10;11 11))~.cs.getXIndices 10 10,,
+true,,,q,.cs.isXMAS[("MMMS";"MSAM";"AMXS";"MSAM");((0 1;1 2;2 3);(2 1;1 2;0 3))],,
+true,,,q,9=.cs.p2 .tmp.test,,
