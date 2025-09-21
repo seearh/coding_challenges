@@ -1,0 +1,25 @@
+action,ms,bytes,lang,code,repeat,minver,comment
+comment,,,q,,,,Day 5 Print Queue
+before,,,q,\l ../../aoc_2024/day5/printQueue.q,,,Load solution script
+before,,,q,.tmp.input:.pq.readInput `:../../aoc_2024/day5/test.txt,,,Load in test data
+before,,,q,.tmp.rules:.tmp.input 0,,,Assign to test variables
+before,,,q,.tmp.updates:.tmp.input 1,,,Assign to test variables
+true,,,q,61=.pq.midPageCorr[.tmp.rules;.tmp.updates 0],,,Returns middle page number if update is correctly ordered
+true,,,q,53=.pq.midPageCorr[.tmp.rules;.tmp.updates 1],,,Returns middle page number if update is correctly ordered
+true,,,q,29=.pq.midPageCorr[.tmp.rules;.tmp.updates 2],,,Returns middle page number if update is correctly ordered
+true,,,q,0=.pq.midPageCorr[.tmp.rules;.tmp.updates 3],,,Returns 0 if update is incorrectly ordered
+true,,,q,0=.pq.midPageCorr[.tmp.rules;.tmp.updates 4],,,Returns 0 if update is incorrectly ordered
+true,,,q,0=.pq.midPageCorr[.tmp.rules;.tmp.updates 5],,,Returns 0 if update is incorrectly ordered
+true,,,q,143=.pq.p1[.tmp.rules;.tmp.updates],,,
+true,,,q,75=.pq.getMidPage 97 13 75 29 47,,,Returns middle page number
+true,,,q,13=.pq.getMidPage 97 13 75,,,Returns middle page number
+true,,,q,97 75 47 61 53~.pq.reord[(47 97 97 75 61 97 75 97 47 75;53 61 47 53 53 53 47 75 61 61);75 97 47 61 53],,,Reorders according to filtered ruleset
+true,,,q,61 29 13~.pq.reord[(61 29 61;13 13 29);61 13 29],,,Reorders according to filtered ruleset
+true,,,q,97 75 47 29 13~.pq.reord[(97 97 75 29 97 47 75 97 47 75;3 47 29 13 29 13 47 75 29 13);97 13 75 29 47],,,Reorders according to filtered ruleset
+true,,,q,0=.pq.midPageWrong[.tmp.rules;.tmp.updates 0],,,Returns middle page number if update is correctly ordered
+true,,,q,0=.pq.midPageWrong[.tmp.rules;.tmp.updates 1],,,Returns middle page number if update is correctly ordered
+true,,,q,0=.pq.midPageWrong[.tmp.rules;.tmp.updates 2],,,Returns middle page number if update is correctly ordered
+true,,,q,47=.pq.midPageWrong[.tmp.rules;.tmp.updates 3],,,Returns 0 if update is incorrectly ordered
+true,,,q,29=.pq.midPageWrong[.tmp.rules;.tmp.updates 4],,,Returns 0 if update is incorrectly ordered
+true,,,q,47=.pq.midPageWrong[.tmp.rules;.tmp.updates 5],,,Returns 0 if update is incorrectly ordered
+true,,,q,123=.pq.p2[.tmp.rules;.tmp.updates],,,
