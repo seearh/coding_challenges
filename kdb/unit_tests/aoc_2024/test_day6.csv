@@ -1,0 +1,31 @@
+action,ms,bytes,lang,code,repeat,minver,comment
+comment,,,q,,,,Day 6 Guard Gallivant
+before,,,q,\l ../../aoc_2024/day6/guardGallivant.q,,,Load solution script
+before,,,q,.tmp.map:read0`:../../aoc_2024/day6/test.txt,,,Load in test data
+true,,,q,(0 4;1 9;3 2;4 7;6 1;7 8;8 0;9 6)~.tmp.obs:.gg.findSym[.tmp.map;"#"],,,Find obstacles
+true,,,q,enlist[6 4]~.gg.findSym[.tmp.map;"^"],,,Find guard
+true,,,q,(1 4;">")~.gg.nextPosDir[.tmp.obs;(6 4;"^")],,,Move to next position (^)
+true,,,q,(1 8;"v")~.gg.nextPosDir[.tmp.obs;(1 4;">")],,,Move to next position (>)
+true,,,q,(6 8;"<")~.gg.nextPosDir[.tmp.obs;(1 8;"v")],,,Move to next position (v)
+true,,,q,(6 2;"^")~.gg.nextPosDir[.tmp.obs;(6 8;"<")],,,Move to next position (<)
+true,,,q,(4 2;">")~.gg.nextPosDir[.tmp.obs;(6 2;"^")],,,
+true,,,q,(4 6;"v")~.gg.nextPosDir[.tmp.obs;(4 2;">")],,,
+true,,,q,(8 6;"<")~.gg.nextPosDir[.tmp.obs;(4 6;"v")],,,
+true,,,q,(8 1;"^")~.gg.nextPosDir[.tmp.obs;(8 6;"<")],,,
+true,,,q,(7 1;">")~.gg.nextPosDir[.tmp.obs;(8 1;"^")],,,
+true,,,q,(7 7;"v")~.gg.nextPosDir[.tmp.obs;(7 1;">")],,,
+true,,,q,(0N 7;"<")~.gg.nextPosDir[.tmp.obs;(7 7;"v")],,,
+true,,,q,(0N 7;"v")~.gg.nextPosDir[.tmp.obs;(0N 7;"v")],,,Returns as is when out-of-bound
+true,,,q,.gg.extrapPos[10 10;1 10]~flip (10-til 10;10),,,Extrapolate x-coordinates descending
+true,,,q,.gg.extrapPos[1 10;10 10]~flip (1+til 10;10),,,Extrapolate x-coordinates ascending
+true,,,q,.gg.extrapPos[10 10;10 1]~flip (10;10-til 10),,,Extrapolate y-coordinates descending
+true,,,q,.gg.extrapPos[10 1;10 10]~flip (10;1+til 10),,,Extrapolate y-coordinates ascending
+true,,,q,41=.gg.p1 .tmp.map,,,Part One example
+false,,,q,.gg.isLoop[.tmp.obs;(6 4;"^")],,,No loop
+true,,,q,".gg.isLoop[.tmp.obs,enlist 6 3;(6 4;"^")]",,,Loop
+true,,,q,".gg.isLoop[.tmp.obs,enlist 7 6;(6 4;"^")]",,,Loop
+true,,,q,".gg.isLoop[.tmp.obs,enlist 7 7;(6 4;"^")]",,,Loop
+true,,,q,".gg.isLoop[.tmp.obs,enlist 8 1;(6 4;"^")]",,,Loop
+true,,,q,".gg.isLoop[.tmp.obs,enlist 8 3;(6 4;"^")]",,,Loop
+true,,,q,".gg.isLoop[.tmp.obs,enlist 9 7;(6 4;"^")]",,,Loop
+true,,,q,6=.gg.p2 .tmp.map,,,Part Two example
