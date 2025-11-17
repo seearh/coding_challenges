@@ -1,5 +1,5 @@
 action,ms,bytes,lang,code,repeat,minver,comment
-comment,,,q,,,,Day 6 Bridge Repair
+comment,,,q,,,,Day 7 Bridge Repair
 before,,,q,\l ../../aoc_2024/day7/bridgeRepair.q,,,Load solution script
 before,,,q,.tmp.test:.br.readInput `:../../aoc_2024/day7/test.txt,,,Load in test data
 true,,,q,.br.formParseTree[81 40 27;(+;*)]~(*;(+;81;40);27),,,
