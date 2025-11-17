@@ -1,93 +1,101 @@
 action,ms,bytes,lang,code,repeat,file,msx,bytesx,ok,okms,okbytes,valid,timestamp
-true,0,0,q,12=.trebuchet.numFromFirstLastDigits"12",1,:../../unit_tests/aoc_2023/test_day1.csv,0,0,1,1,1,1,2025-11-10 16:08:44.564
-true,0,0,q,15=.trebuchet.numFromFirstLastDigits"12345",1,:../../unit_tests/aoc_2023/test_day1.csv,0,0,1,1,1,1,2025-11-10 16:08:44.564
-true,0,0,q,77=.trebuchet.numFromFirstLastDigits 1#"7",1,:../../unit_tests/aoc_2023/test_day1.csv,0,0,1,1,1,1,2025-11-10 16:08:44.564
-true,0,0,q,142=.trebuchet.p1 .tmp.test1,1,:../../unit_tests/aoc_2023/test_day1.csv,0,0,1,1,1,1,2025-11-10 16:08:44.564
-true,0,0,q,5=.trebuchet.checkForDigits 1#"5",1,:../../unit_tests/aoc_2023/test_day1.csv,0,0,1,1,1,1,2025-11-10 16:08:44.564
-true,0,0,q,0=.trebuchet.checkForDigits"test0",1,:../../unit_tests/aoc_2023/test_day1.csv,0,0,1,1,1,1,2025-11-10 16:08:44.564
-true,0,0,q,1=.trebuchet.checkForDigits"testone",1,:../../unit_tests/aoc_2023/test_day1.csv,0,0,1,1,1,1,2025-11-10 16:08:44.564
-true,0,0,q,1=.trebuchet.parseForDigitsLeftToRight"abcone2threexyz",1,:../../unit_tests/aoc_2023/test_day1.csv,0,0,1,1,1,1,2025-11-10 16:08:44.564
-true,0,0,q,3=.trebuchet.parseForDigitsRightToLeft"abcone2threexyz",1,:../../unit_tests/aoc_2023/test_day1.csv,0,0,1,1,1,1,2025-11-10 16:08:44.564
-true,0,0,q,4=.trebuchet.parseForDigitsLeftToRight"4nineeightseven2",1,:../../unit_tests/aoc_2023/test_day1.csv,0,0,1,1,1,1,2025-11-10 16:08:44.564
-true,0,0,q,2=.trebuchet.parseForDigitsRightToLeft"4nineeightseven2",1,:../../unit_tests/aoc_2023/test_day1.csv,0,0,1,1,1,1,2025-11-10 16:08:44.564
-true,0,0,q,281=.trebuchet.p2 .tmp.test2,1,:../../unit_tests/aoc_2023/test_day1.csv,0,0,1,1,1,1,2025-11-10 16:08:44.565
-true,0,0,q,.hh.p1[3 4 2 1 3 3;4 3 5 3 9 3]=11,1,:../../unit_tests/aoc_2024/test_day1.csv,0,0,1,1,1,1,2025-11-10 16:08:44.565
-true,0,0,q,.hh.p2[3 4 2 1 3 3;4 3 5 3 9 3]=31,1,:../../unit_tests/aoc_2024/test_day1.csv,0,0,1,1,1,1,2025-11-10 16:08:44.565
-true,0,0,q,.redNosedReports.isSafe 7 6 4 2 1,1,:../../unit_tests/aoc_2024/test_day2.csv,0,0,1,1,1,1,2025-11-10 16:08:44.565
-true,0,0,q,.redNosedReports.isSafe 1 3 6 7 9,1,:../../unit_tests/aoc_2024/test_day2.csv,0,0,1,1,1,1,2025-11-10 16:08:44.565
-true,0,0,q,2=.redNosedReports.p1 .tmp.test,1,:../../unit_tests/aoc_2024/test_day2.csv,0,0,1,1,1,1,2025-11-10 16:08:44.565
-true,0,0,q,.redNosedReports.isSafeDampened 7 6 4 2 1,1,:../../unit_tests/aoc_2024/test_day2.csv,0,0,1,1,1,1,2025-11-10 16:08:44.565
-true,0,0,q,.redNosedReports.isSafeDampened 1 3 2 4 5,1,:../../unit_tests/aoc_2024/test_day2.csv,0,0,1,1,1,1,2025-11-10 16:08:44.565
-true,0,0,q,.redNosedReports.isSafeDampened 8 6 4 4 1,1,:../../unit_tests/aoc_2024/test_day2.csv,0,0,1,1,1,1,2025-11-10 16:08:44.565
-true,0,0,q,.redNosedReports.isSafeDampened 1 3 6 7 9,1,:../../unit_tests/aoc_2024/test_day2.csv,0,0,1,1,1,1,2025-11-10 16:08:44.565
-true,0,0,q,4=.redNosedReports.p2 .tmp.test,1,:../../unit_tests/aoc_2024/test_day2.csv,0,0,1,1,1,1,2025-11-10 16:08:44.565
-true,0,0,q,2024=.mul.evalMul .tmp.test 0,1,:../../unit_tests/aoc_2024/test_day3.csv,0,0,1,1,1,1,2025-11-10 16:08:44.566
-true,0,0,q,161=.mul.p1 .tmp.test 1,1,:../../unit_tests/aoc_2024/test_day3.csv,0,0,1,1,1,1,2025-11-10 16:08:44.566
-true,0,0,q,48=.mul.p2 .tmp.test 2,1,:../../unit_tests/aoc_2024/test_day3.csv,0,0,1,1,1,1,2025-11-10 16:08:44.566
-true,0,0,q,.cs.findLetter[("MMMS";"MSAM";"AMXS";"MSAM");"A"]~(1 2;2 0;3 2),1,:../../unit_tests/aoc_2024/test_day4.csv,0,0,1,1,1,1,2025-11-10 16:08:44.566
-true,0,0,q,all ((10 10;10 11;10 12;10 13);(10 10;10 9;10 8;10 7);(10 10;11 10;12 10;13 10);(10 10;9 10;8 10;7 10);(10 10;11 11;12 12;13 13);(10 10;9 9;8 8;7 7);(10 10;9 11;8 12;7 13);(10 10;11 9;12 8;13 7)) in .cs.getIndices 10 10,1,:../../unit_tests/aoc_2024/test_day4.csv,0,0,1,1,1,1,2025-11-10 16:08:44.566
-true,0,0,q,8=count .cs.getIndices 10 10,1,:../../unit_tests/aoc_2024/test_day4.csv,0,0,1,1,1,1,2025-11-10 16:08:44.566
-true,0,0,q,18=.cs.p1 .tmp.test,1,:../../unit_tests/aoc_2024/test_day4.csv,0,0,1,1,1,1,2025-11-10 16:08:44.566
-true,0,0,q,((9 11;10 10;11 9);(9 9;10 10;11 11))~.cs.getXIndices 10 10,1,:../../unit_tests/aoc_2024/test_day4.csv,0,0,1,1,1,1,2025-11-10 16:08:44.566
-true,0,0,q,.cs.isXMAS[("MMMS";"MSAM";"AMXS";"MSAM");((0 1;1 2;2 3);(2 1;1 2;0 3))],1,:../../unit_tests/aoc_2024/test_day4.csv,0,0,1,1,1,1,2025-11-10 16:08:44.566
-true,0,0,q,9=.cs.p2 .tmp.test,1,:../../unit_tests/aoc_2024/test_day4.csv,0,0,1,1,1,1,2025-11-10 16:08:44.566
-true,0,0,q,61=.pq.midPageCorr[.tmp.rules;.tmp.updates 0],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,53=.pq.midPageCorr[.tmp.rules;.tmp.updates 1],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,29=.pq.midPageCorr[.tmp.rules;.tmp.updates 2],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,0=.pq.midPageCorr[.tmp.rules;.tmp.updates 3],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,0=.pq.midPageCorr[.tmp.rules;.tmp.updates 4],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,0=.pq.midPageCorr[.tmp.rules;.tmp.updates 5],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,143=.pq.p1[.tmp.rules;.tmp.updates],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,75=.pq.getMidPage 97 13 75 29 47,1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,13=.pq.getMidPage 97 13 75,1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,97 75 47 61 53~.pq.reord[(47 97 97 75 61 97 75 97 47 75;53 61 47 53 53 53 47 75 61 61);75 97 47 61 53],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,61 29 13~.pq.reord[(61 29 61;13 13 29);61 13 29],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,97 75 47 29 13~.pq.reord[(97 97 75 29 97 47 75 97 47 75;3 47 29 13 29 13 47 75 29 13);97 13 75 29 47],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,0=.pq.midPageWrong[.tmp.rules;.tmp.updates 0],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,0=.pq.midPageWrong[.tmp.rules;.tmp.updates 1],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,0=.pq.midPageWrong[.tmp.rules;.tmp.updates 2],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,47=.pq.midPageWrong[.tmp.rules;.tmp.updates 3],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,29=.pq.midPageWrong[.tmp.rules;.tmp.updates 4],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,47=.pq.midPageWrong[.tmp.rules;.tmp.updates 5],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,123=.pq.p2[.tmp.rules;.tmp.updates],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,(0 4;1 9;3 2;4 7;6 1;7 8;8 0;9 6)~.tmp.obs:.gg.findSym[.tmp.map;"#"],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,enlist[6 4]~.gg.findSym[.tmp.map;"^"],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,(1 4;">")~.gg.nextPosDir[.tmp.obs;(6 4;"^")],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,(1 8;"v")~.gg.nextPosDir[.tmp.obs;(1 4;">")],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,(6 8;"<")~.gg.nextPosDir[.tmp.obs;(1 8;"v")],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,(6 2;"^")~.gg.nextPosDir[.tmp.obs;(6 8;"<")],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,(4 2;">")~.gg.nextPosDir[.tmp.obs;(6 2;"^")],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,(4 6;"v")~.gg.nextPosDir[.tmp.obs;(4 2;">")],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,(8 6;"<")~.gg.nextPosDir[.tmp.obs;(4 6;"v")],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,(8 1;"^")~.gg.nextPosDir[.tmp.obs;(8 6;"<")],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,(7 1;">")~.gg.nextPosDir[.tmp.obs;(8 1;"^")],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,(7 7;"v")~.gg.nextPosDir[.tmp.obs;(7 1;">")],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.567
-true,0,0,q,(0N 7;"<")~.gg.nextPosDir[.tmp.obs;(7 7;"v")],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.568
-true,0,0,q,(0N 7;"v")~.gg.nextPosDir[.tmp.obs;(0N 7;"v")],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.568
-true,0,0,q,.gg.extrapPos[10 10;1 10]~flip (10-til 10;10),1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.568
-true,0,0,q,.gg.extrapPos[1 10;10 10]~flip (1+til 10;10),1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.568
-true,0,0,q,.gg.extrapPos[10 10;10 1]~flip (10;10-til 10),1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.568
-true,0,0,q,.gg.extrapPos[10 1;10 10]~flip (10;1+til 10),1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.568
-true,0,0,q,41=.gg.p1 .tmp.map,1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.568
-true,0,0,q,".gg.isLoop[.tmp.obs,enlist 6 3;(6 4;""^"")]",1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.568
-true,0,0,q,".gg.isLoop[.tmp.obs,enlist 7 6;(6 4;""^"")]",1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.568
-true,0,0,q,".gg.isLoop[.tmp.obs,enlist 7 7;(6 4;""^"")]",1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.568
-true,0,0,q,".gg.isLoop[.tmp.obs,enlist 8 1;(6 4;""^"")]",1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.568
-true,0,0,q,".gg.isLoop[.tmp.obs,enlist 8 3;(6 4;""^"")]",1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.568
-true,0,0,q,".gg.isLoop[.tmp.obs,enlist 9 7;(6 4;""^"")]",1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.568
-true,0,0,q,6=.gg.p2 .tmp.map,1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-10 16:08:44.568
-true,0,0,q,.br.formParseTree[81 40 27;(+;*)]~(*;(+;81;40);27),1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-10 16:08:44.569
-true,0,0,q,.br.testEquation[190;10 19;(+;*)],1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-10 16:08:44.569
-true,0,0,q,.br.testEquation[3267;81 40 27;(+;*)],1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-10 16:08:44.569
-true,0,0,q,.br.testEquation[156;15 6;(+;*;.br.concat)],1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-10 16:08:44.569
-true,0,0,q,.br.testEquation[7290;6 8 6 15;(+;*;.br.concat)],1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-10 16:08:44.569
-true,0,0,q,.br.testEquation[192;17 8 14;(+;*;.br.concat)],1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-10 16:08:44.569
-true,0,0,q,.br.testEquation[292;11 6 16 20;(+;*)],1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-10 16:08:44.569
-true,0,0,q,3749=.br.p1 .tmp.test,1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-10 16:08:44.569
-true,0,0,q,.br.testEquationLazy[190;10 19;(+;*)],1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-10 16:08:44.569
-true,0,0,q,.br.testEquationLazy[3267;81 40 27;(+;*)],1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-10 16:08:44.569
-true,0,0,q,.br.testEquationLazy[156;15 6;(+;*;.br.concatEachLeft)],1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-10 16:08:44.569
-true,0,0,q,.br.testEquationLazy[7290;6 8 6 15;(+;*;.br.concatEachLeft)],1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-10 16:08:44.569
-true,0,0,q,.br.testEquationLazy[192;17 8 14;(+;*;.br.concatEachLeft)],1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-10 16:08:44.569
-true,0,0,q,.br.testEquationLazy[292;11 6 16 20;(+;*)],1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-10 16:08:44.569
-true,0,0,q,11387=.br.p2 .tmp.test,1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-10 16:08:44.569
+true,0,0,q,12=.trebuchet.numFromFirstLastDigits"12",1,:../../unit_tests/aoc_2023/test_day1.csv,0,0,1,1,1,1,2025-11-17 21:41:48.569
+true,0,0,q,15=.trebuchet.numFromFirstLastDigits"12345",1,:../../unit_tests/aoc_2023/test_day1.csv,0,0,1,1,1,1,2025-11-17 21:41:48.569
+true,0,0,q,77=.trebuchet.numFromFirstLastDigits 1#"7",1,:../../unit_tests/aoc_2023/test_day1.csv,0,0,1,1,1,1,2025-11-17 21:41:48.569
+true,0,0,q,142=.trebuchet.p1 .tmp.test1,1,:../../unit_tests/aoc_2023/test_day1.csv,0,0,1,1,1,1,2025-11-17 21:41:48.569
+true,0,0,q,5=.trebuchet.checkForDigits 1#"5",1,:../../unit_tests/aoc_2023/test_day1.csv,0,0,1,1,1,1,2025-11-17 21:41:48.569
+true,0,0,q,0=.trebuchet.checkForDigits"test0",1,:../../unit_tests/aoc_2023/test_day1.csv,0,0,1,1,1,1,2025-11-17 21:41:48.569
+true,0,0,q,1=.trebuchet.checkForDigits"testone",1,:../../unit_tests/aoc_2023/test_day1.csv,0,0,1,1,1,1,2025-11-17 21:41:48.569
+true,0,0,q,1=.trebuchet.parseForDigitsLeftToRight"abcone2threexyz",1,:../../unit_tests/aoc_2023/test_day1.csv,0,0,1,1,1,1,2025-11-17 21:41:48.569
+true,0,0,q,3=.trebuchet.parseForDigitsRightToLeft"abcone2threexyz",1,:../../unit_tests/aoc_2023/test_day1.csv,0,0,1,1,1,1,2025-11-17 21:41:48.569
+true,0,0,q,4=.trebuchet.parseForDigitsLeftToRight"4nineeightseven2",1,:../../unit_tests/aoc_2023/test_day1.csv,0,0,1,1,1,1,2025-11-17 21:41:48.569
+true,0,0,q,2=.trebuchet.parseForDigitsRightToLeft"4nineeightseven2",1,:../../unit_tests/aoc_2023/test_day1.csv,0,0,1,1,1,1,2025-11-17 21:41:48.569
+true,0,0,q,281=.trebuchet.p2 .tmp.test2,1,:../../unit_tests/aoc_2023/test_day1.csv,0,0,1,1,1,1,2025-11-17 21:41:48.569
+true,0,0,q,.hh.p1[3 4 2 1 3 3;4 3 5 3 9 3]=11,1,:../../unit_tests/aoc_2024/test_day1.csv,0,0,1,1,1,1,2025-11-17 21:41:48.569
+true,0,0,q,.hh.p2[3 4 2 1 3 3;4 3 5 3 9 3]=31,1,:../../unit_tests/aoc_2024/test_day1.csv,0,0,1,1,1,1,2025-11-17 21:41:48.569
+true,0,0,q,.redNosedReports.isSafe 7 6 4 2 1,1,:../../unit_tests/aoc_2024/test_day2.csv,0,0,1,1,1,1,2025-11-17 21:41:48.569
+true,0,0,q,.redNosedReports.isSafe 1 3 6 7 9,1,:../../unit_tests/aoc_2024/test_day2.csv,0,0,1,1,1,1,2025-11-17 21:41:48.569
+true,0,0,q,2=.redNosedReports.p1 .tmp.test,1,:../../unit_tests/aoc_2024/test_day2.csv,0,0,1,1,1,1,2025-11-17 21:41:48.569
+true,0,0,q,.redNosedReports.isSafeDampened 7 6 4 2 1,1,:../../unit_tests/aoc_2024/test_day2.csv,0,0,1,1,1,1,2025-11-17 21:41:48.569
+true,0,0,q,.redNosedReports.isSafeDampened 1 3 2 4 5,1,:../../unit_tests/aoc_2024/test_day2.csv,0,0,1,1,1,1,2025-11-17 21:41:48.569
+true,0,0,q,.redNosedReports.isSafeDampened 8 6 4 4 1,1,:../../unit_tests/aoc_2024/test_day2.csv,0,0,1,1,1,1,2025-11-17 21:41:48.569
+true,0,0,q,.redNosedReports.isSafeDampened 1 3 6 7 9,1,:../../unit_tests/aoc_2024/test_day2.csv,0,0,1,1,1,1,2025-11-17 21:41:48.569
+true,0,0,q,4=.redNosedReports.p2 .tmp.test,1,:../../unit_tests/aoc_2024/test_day2.csv,0,0,1,1,1,1,2025-11-17 21:41:48.570
+true,0,0,q,2024=.mul.evalMul .tmp.test 0,1,:../../unit_tests/aoc_2024/test_day3.csv,0,0,1,1,1,1,2025-11-17 21:41:48.570
+true,0,0,q,161=.mul.p1 .tmp.test 1,1,:../../unit_tests/aoc_2024/test_day3.csv,0,0,1,1,1,1,2025-11-17 21:41:48.570
+true,0,0,q,48=.mul.p2 .tmp.test 2,1,:../../unit_tests/aoc_2024/test_day3.csv,0,0,1,1,1,1,2025-11-17 21:41:48.570
+true,0,0,q,.cs.findLetter[("MMMS";"MSAM";"AMXS";"MSAM");"A"]~(1 2;2 0;3 2),1,:../../unit_tests/aoc_2024/test_day4.csv,0,0,1,1,1,1,2025-11-17 21:41:48.570
+true,0,0,q,all ((10 10;10 11;10 12;10 13);(10 10;10 9;10 8;10 7);(10 10;11 10;12 10;13 10);(10 10;9 10;8 10;7 10);(10 10;11 11;12 12;13 13);(10 10;9 9;8 8;7 7);(10 10;9 11;8 12;7 13);(10 10;11 9;12 8;13 7)) in .cs.getIndices 10 10,1,:../../unit_tests/aoc_2024/test_day4.csv,0,0,1,1,1,1,2025-11-17 21:41:48.570
+true,0,0,q,8=count .cs.getIndices 10 10,1,:../../unit_tests/aoc_2024/test_day4.csv,0,0,1,1,1,1,2025-11-17 21:41:48.570
+true,0,0,q,18=.cs.p1 .tmp.test,1,:../../unit_tests/aoc_2024/test_day4.csv,0,0,1,1,1,1,2025-11-17 21:41:48.570
+true,0,0,q,((9 11;10 10;11 9);(9 9;10 10;11 11))~.cs.getXIndices 10 10,1,:../../unit_tests/aoc_2024/test_day4.csv,0,0,1,1,1,1,2025-11-17 21:41:48.571
+true,0,0,q,.cs.isXMAS[("MMMS";"MSAM";"AMXS";"MSAM");((0 1;1 2;2 3);(2 1;1 2;0 3))],1,:../../unit_tests/aoc_2024/test_day4.csv,0,0,1,1,1,1,2025-11-17 21:41:48.571
+true,0,0,q,9=.cs.p2 .tmp.test,1,:../../unit_tests/aoc_2024/test_day4.csv,0,0,1,1,1,1,2025-11-17 21:41:48.571
+true,0,0,q,61=.pq.midPageCorr[.tmp.rules;.tmp.updates 0],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-17 21:41:48.571
+true,0,0,q,53=.pq.midPageCorr[.tmp.rules;.tmp.updates 1],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-17 21:41:48.572
+true,0,0,q,29=.pq.midPageCorr[.tmp.rules;.tmp.updates 2],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-17 21:41:48.572
+true,0,0,q,0=.pq.midPageCorr[.tmp.rules;.tmp.updates 3],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-17 21:41:48.572
+true,0,0,q,0=.pq.midPageCorr[.tmp.rules;.tmp.updates 4],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-17 21:41:48.572
+true,0,0,q,0=.pq.midPageCorr[.tmp.rules;.tmp.updates 5],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-17 21:41:48.572
+true,0,0,q,143=.pq.p1[.tmp.rules;.tmp.updates],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-17 21:41:48.572
+true,0,0,q,75=.pq.getMidPage 97 13 75 29 47,1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-17 21:41:48.572
+true,0,0,q,13=.pq.getMidPage 97 13 75,1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-17 21:41:48.572
+true,0,0,q,97 75 47 61 53~.pq.reord[(47 97 97 75 61 97 75 97 47 75;53 61 47 53 53 53 47 75 61 61);75 97 47 61 53],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-17 21:41:48.572
+true,0,0,q,61 29 13~.pq.reord[(61 29 61;13 13 29);61 13 29],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-17 21:41:48.572
+true,0,0,q,97 75 47 29 13~.pq.reord[(97 97 75 29 97 47 75 97 47 75;3 47 29 13 29 13 47 75 29 13);97 13 75 29 47],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-17 21:41:48.572
+true,0,0,q,0=.pq.midPageWrong[.tmp.rules;.tmp.updates 0],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-17 21:41:48.572
+true,0,0,q,0=.pq.midPageWrong[.tmp.rules;.tmp.updates 1],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-17 21:41:48.572
+true,0,0,q,0=.pq.midPageWrong[.tmp.rules;.tmp.updates 2],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-17 21:41:48.572
+true,0,0,q,47=.pq.midPageWrong[.tmp.rules;.tmp.updates 3],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-17 21:41:48.572
+true,0,0,q,29=.pq.midPageWrong[.tmp.rules;.tmp.updates 4],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-17 21:41:48.572
+true,0,0,q,47=.pq.midPageWrong[.tmp.rules;.tmp.updates 5],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-17 21:41:48.572
+true,0,0,q,123=.pq.p2[.tmp.rules;.tmp.updates],1,:../../unit_tests/aoc_2024/test_day5.csv,0,0,1,1,1,1,2025-11-17 21:41:48.572
+true,0,0,q,(0 4;1 9;3 2;4 7;6 1;7 8;8 0;9 6)~.tmp.obs:.gg.findSym[.tmp.map;"#"],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.573
+true,0,0,q,enlist[6 4]~.gg.findSym[.tmp.map;"^"],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.573
+true,0,0,q,(1 4;">")~.gg.nextPosDir[.tmp.obs;(6 4;"^")],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.573
+true,0,0,q,(1 8;"v")~.gg.nextPosDir[.tmp.obs;(1 4;">")],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.573
+true,0,0,q,(6 8;"<")~.gg.nextPosDir[.tmp.obs;(1 8;"v")],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.573
+true,0,0,q,(6 2;"^")~.gg.nextPosDir[.tmp.obs;(6 8;"<")],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.573
+true,0,0,q,(4 2;">")~.gg.nextPosDir[.tmp.obs;(6 2;"^")],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.573
+true,0,0,q,(4 6;"v")~.gg.nextPosDir[.tmp.obs;(4 2;">")],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.573
+true,0,0,q,(8 6;"<")~.gg.nextPosDir[.tmp.obs;(4 6;"v")],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.573
+true,0,0,q,(8 1;"^")~.gg.nextPosDir[.tmp.obs;(8 6;"<")],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.573
+true,0,0,q,(7 1;">")~.gg.nextPosDir[.tmp.obs;(8 1;"^")],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.573
+true,0,0,q,(7 7;"v")~.gg.nextPosDir[.tmp.obs;(7 1;">")],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.573
+true,0,0,q,(0N 7;"<")~.gg.nextPosDir[.tmp.obs;(7 7;"v")],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.573
+true,0,0,q,(0N 7;"v")~.gg.nextPosDir[.tmp.obs;(0N 7;"v")],1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.573
+true,0,0,q,.gg.extrapPos[10 10;1 10]~flip (10-til 10;10),1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.573
+true,0,0,q,.gg.extrapPos[1 10;10 10]~flip (1+til 10;10),1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.573
+true,0,0,q,.gg.extrapPos[10 10;10 1]~flip (10;10-til 10),1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.573
+true,0,0,q,.gg.extrapPos[10 1;10 10]~flip (10;1+til 10),1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.573
+true,0,0,q,41=.gg.p1 .tmp.map,1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.573
+true,0,0,q,".gg.isLoop[.tmp.obs,enlist 6 3;(6 4;""^"")]",1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.573
+true,0,0,q,".gg.isLoop[.tmp.obs,enlist 7 6;(6 4;""^"")]",1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.573
+true,0,0,q,".gg.isLoop[.tmp.obs,enlist 7 7;(6 4;""^"")]",1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.573
+true,0,0,q,".gg.isLoop[.tmp.obs,enlist 8 1;(6 4;""^"")]",1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.573
+true,0,0,q,".gg.isLoop[.tmp.obs,enlist 8 3;(6 4;""^"")]",1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.573
+true,0,0,q,".gg.isLoop[.tmp.obs,enlist 9 7;(6 4;""^"")]",1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.573
+true,0,0,q,6=.gg.p2 .tmp.map,1,:../../unit_tests/aoc_2024/test_day6.csv,0,0,1,1,1,1,2025-11-17 21:41:48.574
+true,0,0,q,.br.formParseTree[81 40 27;(+;*)]~(*;(+;81;40);27),1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-17 21:41:48.574
+true,0,0,q,.br.testEquation[190;10 19;(+;*)],1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-17 21:41:48.574
+true,0,0,q,.br.testEquation[3267;81 40 27;(+;*)],1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-17 21:41:48.574
+true,0,0,q,.br.testEquation[156;15 6;(+;*;.br.concat)],1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-17 21:41:48.574
+true,0,0,q,.br.testEquation[7290;6 8 6 15;(+;*;.br.concat)],1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-17 21:41:48.574
+true,0,0,q,.br.testEquation[192;17 8 14;(+;*;.br.concat)],1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-17 21:41:48.574
+true,0,0,q,.br.testEquation[292;11 6 16 20;(+;*)],1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-17 21:41:48.574
+true,0,0,q,3749=.br.p1 .tmp.test,1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-17 21:41:48.574
+true,0,0,q,.br.testEquationLazy[190;10 19;(+;*)],1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-17 21:41:48.574
+true,0,0,q,.br.testEquationLazy[3267;81 40 27;(+;*)],1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-17 21:41:48.574
+true,0,0,q,.br.testEquationLazy[156;15 6;(+;*;.br.concatEachLeft)],1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-17 21:41:48.574
+true,0,0,q,.br.testEquationLazy[7290;6 8 6 15;(+;*;.br.concatEachLeft)],1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-17 21:41:48.574
+true,0,0,q,.br.testEquationLazy[192;17 8 14;(+;*;.br.concatEachLeft)],1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-17 21:41:48.574
+true,0,0,q,.br.testEquationLazy[292;11 6 16 20;(+;*)],1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-17 21:41:48.574
+true,0,0,q,11387=.br.p2 .tmp.test,1,:../../unit_tests/aoc_2024/test_day7.csv,0,0,1,1,1,1,2025-11-17 21:41:48.574
+true,0,0,q,(11 10;2 4)~.rc.findAntinodes[8 8;5 6],1,:../../unit_tests/aoc_2024/test_day8.csv,0,0,1,1,1,1,2025-11-17 21:41:48.582
+true,0,0,q,(2 4;11 10;1 3;7 7;10 10)~.rc.findAntinodesByAnt[.tmp.test;"A";.rc.findAntinodes],1,:../../unit_tests/aoc_2024/test_day8.csv,0,0,1,1,1,1,2025-11-17 21:41:48.582
+true,0,0,q,14=.rc.p1 .tmp.test,1,:../../unit_tests/aoc_2024/test_day8.csv,0,0,1,1,1,1,2025-11-17 21:41:48.582
+true,0,0,q,(0 0;1 3;2 6;3 9)~.rc.findHarmonicAntinodes[2#enlist 0 11;0 0;1 3],1,:../../unit_tests/aoc_2024/test_day8.csv,0,0,1,1,1,1,2025-11-17 21:41:48.582
+true,0,0,q,(0 0;2 1;4 2;6 3;8 4;10 5)~.rc.findHarmonicAntinodes[2#enlist 0 11;0 0;2 1],1,:../../unit_tests/aoc_2024/test_day8.csv,0,0,1,1,1,1,2025-11-17 21:41:48.582
+true,0,0,q,(2 1;1 3;0 5)~.rc.findHarmonicAntinodes[2#enlist 0 11;2 1;1 3],1,:../../unit_tests/aoc_2024/test_day8.csv,0,0,1,1,1,1,2025-11-17 21:41:48.582
+true,0,0,q,9=.rc.p2 .tmp.test1,1,:../../unit_tests/aoc_2024/test_day8.csv,0,0,1,1,1,1,2025-11-17 21:41:48.582
+true,0,0,q,34=.rc.p2 .tmp.test,1,:../../unit_tests/aoc_2024/test_day8.csv,0,0,1,1,1,1,2025-11-17 21:41:48.583

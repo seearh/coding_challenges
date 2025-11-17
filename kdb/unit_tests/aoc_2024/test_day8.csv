@@ -1,0 +1,13 @@
+action,ms,bytes,lang,code,repeat,minver,comment
+comment,,,q,,,,Day 8 Resonant Collinearity
+before,,,q,\l ../../aoc_2024/day8/resonantCollinearity.q,,,Load solution script
+before,,,q,.tmp.test:read0 `:../../aoc_2024/day8/test.txt,,,Load in test data
+before,,,q,.tmp.test1:read0 `:../../aoc_2024/day8/test1.txt,,,Load in test data
+true,,,q,(11 10;2 4)~.rc.findAntinodes[8 8;5 6],,,
+true,,,q,(2 4;11 10;1 3;7 7;10 10)~.rc.findAntinodesByAnt[.tmp.test;"A";.rc.findAntinodes],,,
+true,,,q,14=.rc.p1 .tmp.test,,,
+true,,,q,(0 0;1 3;2 6;3 9)~.rc.findHarmonicAntinodes[2#enlist 0 11;0 0;1 3],,,
+true,,,q,(0 0;2 1;4 2;6 3;8 4;10 5)~.rc.findHarmonicAntinodes[2#enlist 0 11;0 0;2 1],,,
+true,,,q,(2 1;1 3;0 5)~.rc.findHarmonicAntinodes[2#enlist 0 11;2 1;1 3],,,
+true,,,q,9=.rc.p2 .tmp.test1,,,
+true,,,q,34=.rc.p2 .tmp.test,,,
